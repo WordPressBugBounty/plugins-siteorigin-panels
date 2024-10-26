@@ -346,7 +346,7 @@ msgstr ""
 msgid "Add Row"
 msgstr ""
 
-#: inc/admin.php:486, inc/styles.php:518
+#: inc/admin.php:486, inc/styles.php:519
 msgid "Column"
 msgstr ""
 
@@ -418,7 +418,7 @@ msgstr ""
 msgid "New Row"
 msgstr ""
 
-#: inc/admin.php:509, inc/admin.php:523, inc/styles.php:403, tpl/js-templates.php:67
+#: inc/admin.php:509, inc/admin.php:523, inc/styles.php:404, tpl/js-templates.php:67
 msgid "Row"
 msgstr ""
 
@@ -456,7 +456,7 @@ msgstr ""
 msgid "Add a {{%= items[0] %}}, {{%= items[1] %}} or {{%= items[2] %}} to get started."
 msgstr ""
 
-#: inc/admin.php:522, inc/styles.php:563, tpl/js-templates.php:66
+#: inc/admin.php:522, inc/styles.php:564, tpl/js-templates.php:66
 msgid "Widget"
 msgstr ""
 
@@ -715,7 +715,7 @@ msgstr ""
 msgid "Custom Home Page Builder"
 msgstr ""
 
-#: inc/renderer.php:487
+#: inc/renderer.php:521
 msgid "Prevented SiteOrigin layout from repeated rendering."
 msgstr ""
 
@@ -1003,7 +1003,7 @@ msgstr ""
 msgid "Allow margin below the last row."
 msgstr ""
 
-#: inc/settings.php:508, inc/styles.php:501
+#: inc/settings.php:508, inc/styles.php:502
 msgid "Mobile Column Bottom Margin"
 msgstr ""
 
@@ -1119,7 +1119,7 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: inc/styles-admin.php:214, inc/styles.php:471, inc/styles.php:526
+#: inc/styles-admin.php:214, inc/styles.php:472, inc/styles.php:527
 msgid "Top"
 msgstr ""
 
@@ -1127,7 +1127,7 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
-#: inc/styles-admin.php:222, inc/styles.php:473, inc/styles.php:528
+#: inc/styles-admin.php:222, inc/styles.php:474, inc/styles.php:529
 msgid "Bottom"
 msgstr ""
 
@@ -1283,175 +1283,175 @@ msgstr ""
 msgid "Border Thickness"
 msgstr ""
 
-#: inc/styles.php:282
+#: inc/styles.php:283
 msgid "Border Radius"
 msgstr ""
 
-#: inc/styles.php:290
+#: inc/styles.php:291
 msgid "Box Shadow"
 msgstr ""
 
-#: inc/styles.php:296, inc/styles.php:343
+#: inc/styles.php:297, inc/styles.php:344
 msgid "Color"
 msgstr ""
 
-#: inc/styles.php:304, inc/styles.php:350
+#: inc/styles.php:305, inc/styles.php:351
 msgid "Inset"
 msgstr ""
 
-#: inc/styles.php:308, inc/styles.php:354
+#: inc/styles.php:309, inc/styles.php:355
 msgid "Inset box shadows appear inside the %s."
 msgstr ""
 
-#: inc/styles.php:311, inc/styles.php:357
+#: inc/styles.php:312, inc/styles.php:358
 msgid "Horizontal Offset"
 msgstr ""
 
-#: inc/styles.php:317, inc/styles.php:363
+#: inc/styles.php:318, inc/styles.php:364
 msgid "Vertical Offset"
 msgstr ""
 
-#: inc/styles.php:323, inc/styles.php:369
+#: inc/styles.php:324, inc/styles.php:370
 msgid "Blur"
 msgstr ""
 
-#: inc/styles.php:329, inc/styles.php:375
+#: inc/styles.php:330, inc/styles.php:376
 msgid "Spread"
 msgstr ""
 
-#: inc/styles.php:337
+#: inc/styles.php:338
 msgid "Box Shadow Hover"
 msgstr ""
 
-#: inc/styles.php:384
+#: inc/styles.php:385
 msgid "Full Height"
 msgstr ""
 
-#: inc/styles.php:389
+#: inc/styles.php:390
 msgid "Set the minimum height of the row to the full height of the browser."
 msgstr ""
 
-#: inc/styles.php:406
+#: inc/styles.php:407
 msgid "Column Class"
 msgstr ""
 
-#: inc/styles.php:409
+#: inc/styles.php:410
 msgid "Class added to all columns in this row."
 msgstr ""
 
-#: inc/styles.php:415
+#: inc/styles.php:416
 msgid "Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:418
+#: inc/styles.php:419
 msgid "Space below the row. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:423
+#: inc/styles.php:424
 msgid "Gutter"
 msgstr ""
 
-#: inc/styles.php:426
+#: inc/styles.php:427
 msgid "Amount of space between columns. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:431
+#: inc/styles.php:432
 msgid "Row Layout"
 msgstr ""
 
-#: inc/styles.php:435, inc/styles.php:447
+#: inc/styles.php:436, inc/styles.php:448
 msgid "Standard"
 msgstr ""
 
-#: inc/styles.php:436
+#: inc/styles.php:437
 msgid "Full Width"
 msgstr ""
 
-#: inc/styles.php:437
+#: inc/styles.php:438
 msgid "Full Width Stretched"
 msgstr ""
 
-#: inc/styles.php:443
+#: inc/styles.php:444
 msgid "Collapse Behaviour"
 msgstr ""
 
-#: inc/styles.php:448
+#: inc/styles.php:449
 msgid "No Collapse"
 msgstr ""
 
-#: inc/styles.php:454
+#: inc/styles.php:455
 msgid "Collapse Order"
 msgstr ""
 
-#: inc/styles.php:458, widgets/widgets.php:724, widgets/widgets.php:850, inc/widgets/post-loop.php:474
+#: inc/styles.php:459, widgets/widgets.php:724, widgets/widgets.php:850, inc/widgets/post-loop.php:474
 msgid "Default"
 msgstr ""
 
-#: inc/styles.php:459
+#: inc/styles.php:460
 msgid "Left on Top"
 msgstr ""
 
-#: inc/styles.php:460
+#: inc/styles.php:461
 msgid "Right on Top"
 msgstr ""
 
-#: inc/styles.php:467
+#: inc/styles.php:468
 msgid "Column Vertical Alignment"
 msgstr ""
 
-#: inc/styles.php:472, inc/styles.php:527, widgets/widgets/button/button.php:31
+#: inc/styles.php:473, inc/styles.php:528, widgets/widgets/button/button.php:31
 msgid "Center"
 msgstr ""
 
-#: inc/styles.php:474, inc/styles.php:529
+#: inc/styles.php:475, inc/styles.php:530
 msgid "Stretch"
 msgstr ""
 
-#: inc/styles.php:483
+#: inc/styles.php:484
 msgid "Tablet Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:486
+#: inc/styles.php:487
 msgid "Space below the row on tablet devices. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:493
+#: inc/styles.php:494
 msgid "Mobile Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:496
+#: inc/styles.php:497
 msgid "Space below the row on mobile devices. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:504
+#: inc/styles.php:505
 msgid "Vertical space between columns in a collapsed mobile row. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:521
+#: inc/styles.php:522
 msgid "Vertical Alignment"
 msgstr ""
 
-#: inc/styles.php:525
+#: inc/styles.php:526
 msgid "Use row setting"
 msgstr ""
 
-#: inc/styles.php:535, inc/styles.php:577
+#: inc/styles.php:536, inc/styles.php:578
 msgid "Font Color"
 msgstr ""
 
-#: inc/styles.php:542, inc/styles.php:584
+#: inc/styles.php:543, inc/styles.php:585
 msgid "Link Color"
 msgstr ""
 
-#: inc/styles.php:549, inc/styles.php:591
+#: inc/styles.php:550, inc/styles.php:592
 msgid "Link Hover Color"
 msgstr ""
 
-#: inc/styles.php:566
+#: inc/styles.php:567
 msgid "Margin"
 msgstr ""
 
-#: inc/styles.php:569
+#: inc/styles.php:570
 msgid "Margins around the widget."
 msgstr ""
 

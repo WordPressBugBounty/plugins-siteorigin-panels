@@ -35,18 +35,13 @@
   right: 0;
   bottom: 0;
   left: 0;
-}
-.panel-grid-cell > .panel-background-overlay,
-.panel-cell-style > .panel-background-overlay,
-.so-panel > .panel-background-overlay,
-.panel-widget-style > .panel-background-overlay {
   z-index: -1;
 }
-.panel-has-overlay,
-.panel-has-overlay .panel-grid-cell {
+.panel-has-overlay .panel-row-style,
+.panel-has-overlay .panel-cell-style,
+.panel-has-overlay .panel-widget-style {
+  overflow: hidden;
   position: relative;
-}
-.panel-has-overlay.so-panel {
   z-index: 1;
 }
 .panel-layout.panel-is-rtl .panel-grid.panel-no-style,

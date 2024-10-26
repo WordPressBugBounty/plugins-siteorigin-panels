@@ -2897,6 +2897,21 @@
 .wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container input {
   height: 30px;
 }
+.so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap,
+.block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap,
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap {
+  display: flex;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap > label,
+.block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap > label,
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap > label {
+  flex: 2;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap .wp-color-picker,
+.block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap .wp-color-picker,
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap .wp-color-picker {
+  width: 100%;
+}
 .so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-clear,
 .block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-clear,
 .wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-clear {
