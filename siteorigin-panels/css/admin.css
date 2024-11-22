@@ -973,6 +973,24 @@
 .block-editor-page .siteorigin-panels-layout-block-container ul {
   list-style: none;
 }
+.wp-customizer .siteorigin-panels-layout-block-container .so-builder-container,
+.block-editor-page .siteorigin-panels-layout-block-container .so-builder-container {
+  background: #fff;
+}
+.wp-customizer .siteorigin-panels-layout-block-container .so-builder-container .so-row-container,
+.block-editor-page .siteorigin-panels-layout-block-container .so-builder-container .so-row-container {
+  padding: 0 15px 20px;
+}
+.wp-customizer .siteorigin-panels-layout-block-container .so-builder-container a:not(.so-tool-button):not([class^="so-row-"]),
+.block-editor-page .siteorigin-panels-layout-block-container .so-builder-container a:not(.so-tool-button):not([class^="so-row-"]) {
+  color: #2271b1;
+}
+.wp-customizer .siteorigin-panels-layout-block-container .so-builder-container a:not(.so-tool-button):not([class^="so-row-"]):hover,
+.block-editor-page .siteorigin-panels-layout-block-container .so-builder-container a:not(.so-tool-button):not([class^="so-row-"]):hover,
+.wp-customizer .siteorigin-panels-layout-block-container .so-builder-container a:not(.so-tool-button):not([class^="so-row-"]):focus,
+.block-editor-page .siteorigin-panels-layout-block-container .so-builder-container a:not(.so-tool-button):not([class^="so-row-"]):focus {
+  color: #1e1e1e;
+}
 .so-panels-dialog,
 .block-editor-page,
 .wp-customizer {
@@ -1278,6 +1296,7 @@
 .so-panels-dialog .so-title-bar .so-title-bar-buttons,
 .block-editor-page .so-title-bar .so-title-bar-buttons,
 .wp-customizer .so-title-bar .so-title-bar-buttons {
+  display: flex;
   position: absolute;
   right: 0;
   top: 0;
@@ -1299,6 +1318,11 @@
   height: 22px;
   text-align: center;
   color: #666;
+}
+.so-panels-dialog .so-title-bar:has(.so-nav) h3.so-title,
+.block-editor-page .so-title-bar:has(.so-nav) h3.so-title,
+.wp-customizer .so-title-bar:has(.so-nav) h3.so-title {
+  margin: 0 50px;
 }
 .so-panels-dialog .so-toolbar,
 .block-editor-page .so-toolbar,
@@ -2928,6 +2952,16 @@
 .wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result .wp-color-result-text {
   border-left: 1px solid #8c8f94;
   height: 28px;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container {
+  width: 100% !important;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-container .select2-selection__choice__remove,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-container .select2-selection__choice__remove,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-container .select2-selection__choice__remove {
+  height: 100%;
 }
 .so-panels-dialog .so-visual-styles .style-field-measurement .measurement-inputs,
 .block-editor-page .so-visual-styles .style-field-measurement .measurement-inputs,
