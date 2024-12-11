@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 2.31.0
-Build time: 2024-11-22T12:09:26+00:00
+Stable tag: 2.31.1
+Build time: 2024-12-11T10:54:40+02:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,10 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.31.1 – 11 December 2024 =
+* Layouts Block: Prevented double toolbar when in development mode.
+* Improved row, cell, and widget attribute handling.
 
 = 2.31.0 – 22 November 2024 =
 * Styles Fields: Added `multi-select`.

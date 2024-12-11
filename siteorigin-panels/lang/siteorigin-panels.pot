@@ -1155,11 +1155,11 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: inc/styles-admin.php:874, widgets/widgets.php:854
+#: inc/styles-admin.php:891, widgets/widgets.php:854
 msgid "Full"
 msgstr ""
 
-#: inc/styles-admin.php:875
+#: inc/styles-admin.php:892
 msgid "Thumbnail (Theme-defined)"
 msgstr ""
 
