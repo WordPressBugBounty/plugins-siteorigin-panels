@@ -2958,10 +2958,35 @@
 .wp-customizer .so-visual-styles .style-input-wrapper .select2-container {
   width: 100% !important;
 }
-.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-container .select2-selection__choice__remove,
-.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-container .select2-selection__choice__remove,
-.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-container .select2-selection__choice__remove {
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-selection--multiple,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-selection--multiple,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-selection--multiple {
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-selection__rendered,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-selection__rendered,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-selection__rendered {
+  margin: 0;
+  padding: 0;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-search__field,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-search__field,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-search__field {
+  margin-top: 0;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-selection__choice__remove,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-selection__choice__remove,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-selection__choice__remove {
   height: 100%;
+}
+.so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container .select2-selection__choice__remove span,
+.block-editor-page .so-visual-styles .style-input-wrapper .select2-container .select2-selection__choice__remove span,
+.wp-customizer .so-visual-styles .style-input-wrapper .select2-container .select2-selection__choice__remove span {
+  display: inline-block;
+  margin-top: 8px;
+  transform: translateY(-50%);
 }
 .so-panels-dialog .so-visual-styles .style-field-measurement .measurement-inputs,
 .block-editor-page .so-visual-styles .style-field-measurement .measurement-inputs,

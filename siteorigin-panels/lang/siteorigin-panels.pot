@@ -97,19 +97,19 @@ msgstr ""
 msgid "Theme Defined Layouts"
 msgstr ""
 
-#: inc/admin-layouts.php:315
+#: inc/admin-layouts.php:328
 msgid "Clone %s"
 msgstr ""
 
-#: inc/admin-layouts.php:352
+#: inc/admin-layouts.php:365
 msgid " - Results For:"
 msgstr ""
 
-#: inc/admin-layouts.php:413
+#: inc/admin-layouts.php:426
 msgid "Missing layout ID or no such layout exists"
 msgstr ""
 
-#: inc/admin-layouts.php:469
+#: inc/admin-layouts.php:482
 msgid "There was a problem fetching the layout. Please try again later."
 msgstr ""
 
@@ -1147,19 +1147,19 @@ msgstr ""
 msgid "External URL"
 msgstr ""
 
-#: inc/styles-admin.php:432, tpl/admin-home-page.php:21
+#: inc/styles-admin.php:429, tpl/admin-home-page.php:21
 msgid "On"
 msgstr ""
 
-#: inc/styles-admin.php:432, tpl/admin-home-page.php:21
+#: inc/styles-admin.php:429, tpl/admin-home-page.php:21
 msgid "Off"
 msgstr ""
 
-#: inc/styles-admin.php:891, widgets/widgets.php:854
+#: inc/styles-admin.php:888, widgets/widgets.php:854
 msgid "Full"
 msgstr ""
 
-#: inc/styles-admin.php:892
+#: inc/styles-admin.php:889
 msgid "Thumbnail (Theme-defined)"
 msgstr ""
 
