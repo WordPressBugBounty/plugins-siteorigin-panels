@@ -1,4 +1,4 @@
-# Copyright (C) 2024 siteorigin-panels
+# Copyright (C) 2025 siteorigin-panels
 # This file is distributed under the same license as the siteorigin-panels package.
 msgid ""
 msgstr ""
@@ -38,6 +38,11 @@ msgstr ""
 
 #: siteorigin-panels.php:359
 msgid "Read More"
+msgstr ""
+
+#: siteorigin-panels.php:467
+msgctxt "Word count type. Do not translate!"
+msgid "words"
 msgstr ""
 
 #: siteorigin-panels.php:559
@@ -97,19 +102,19 @@ msgstr ""
 msgid "Theme Defined Layouts"
 msgstr ""
 
-#: inc/admin-layouts.php:346
+#: inc/admin-layouts.php:356
 msgid "Clone %s"
 msgstr ""
 
-#: inc/admin-layouts.php:383
+#: inc/admin-layouts.php:393
 msgid " - Results For:"
 msgstr ""
 
-#: inc/admin-layouts.php:444
+#: inc/admin-layouts.php:454
 msgid "Missing layout ID or no such layout exists"
 msgstr ""
 
-#: inc/admin-layouts.php:500
+#: inc/admin-layouts.php:510
 msgid "There was a problem fetching the layout. Please try again later."
 msgstr ""
 
@@ -139,6 +144,21 @@ msgstr ""
 
 #: inc/admin-widget-dialog.php:158
 msgid "WordPress Widgets"
+msgstr ""
+
+#. translators: The name of WordPress plugin
+#: inc/admin-widget-dialog.php:168
+msgid "WooCommerce"
+msgstr ""
+
+#. translators: The name of WordPress plugin
+#: inc/admin-widget-dialog.php:179
+msgid "Jetpack"
+msgstr ""
+
+#. translators: The name of WordPress plugin
+#: inc/admin-widget-dialog.php:190
+msgid "BBPress"
 msgstr ""
 
 #: inc/admin-widget-dialog.php:215, inc/settings.php:431
@@ -321,7 +341,7 @@ msgid "Layout Builder Widget"
 msgstr ""
 
 #. translators: A standard confirmation message
-#: inc/admin.php:491, tpl/js-templates.php:102, tpl/js-templates.php:473
+#: inc/admin.php:491, tpl/js-templates.php:102, tpl/js-templates.php:475
 msgid "Are you sure?"
 msgstr ""
 
@@ -1119,47 +1139,51 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: inc/styles-admin.php:214, inc/styles.php:472, inc/styles.php:527
+#: inc/styles-admin.php:216, inc/styles.php:472, inc/styles.php:527
 msgid "Top"
 msgstr ""
 
-#: inc/styles-admin.php:218, widgets/widgets/button/button.php:30
+#: inc/styles-admin.php:220, widgets/widgets/button/button.php:30
 msgid "Right"
 msgstr ""
 
-#: inc/styles-admin.php:222, inc/styles.php:474, inc/styles.php:529
+#: inc/styles-admin.php:224, inc/styles.php:474, inc/styles.php:529
 msgid "Bottom"
 msgstr ""
 
-#: inc/styles-admin.php:226, widgets/widgets/button/button.php:29
+#: inc/styles-admin.php:228, widgets/widgets/button/button.php:29
 msgid "Left"
 msgstr ""
 
-#: inc/styles-admin.php:299
+#: inc/styles-admin.php:302
 msgid "Select Image"
 msgstr ""
 
-#: inc/styles-admin.php:306
+#: inc/styles-admin.php:309
 msgid "Remove"
 msgstr ""
 
-#: inc/styles-admin.php:309
+#: inc/styles-admin.php:312
 msgid "External URL"
 msgstr ""
 
-#: inc/styles-admin.php:429, tpl/admin-home-page.php:21
+#: inc/styles-admin.php:377
+msgid "Enabled"
+msgstr ""
+
+#: inc/styles-admin.php:456, tpl/admin-home-page.php:21
 msgid "On"
 msgstr ""
 
-#: inc/styles-admin.php:429, tpl/admin-home-page.php:21
+#: inc/styles-admin.php:456, tpl/admin-home-page.php:21
 msgid "Off"
 msgstr ""
 
-#: inc/styles-admin.php:888, widgets/widgets.php:854
+#: inc/styles-admin.php:915, widgets/widgets.php:854
 msgid "Full"
 msgstr ""
 
-#: inc/styles-admin.php:889
+#: inc/styles-admin.php:916
 msgid "Thumbnail (Theme-defined)"
 msgstr ""
 
@@ -1547,7 +1571,7 @@ msgstr ""
 msgid "Add New Widget %s"
 msgstr ""
 
-#: tpl/js-templates.php:256, tpl/js-templates.php:607
+#: tpl/js-templates.php:256, tpl/js-templates.php:609
 msgid "Close"
 msgstr ""
 
@@ -1583,7 +1607,7 @@ msgstr ""
 msgid "Change column direction to the left"
 msgstr ""
 
-#: tpl/js-templates.php:378, tpl/js-templates.php:467
+#: tpl/js-templates.php:378, tpl/js-templates.php:469
 msgid "Insert"
 msgstr ""
 
@@ -1603,87 +1627,87 @@ msgstr ""
 msgid "Clone: %s"
 msgstr ""
 
-#: tpl/js-templates.php:471
+#: tpl/js-templates.php:473
 msgid "Insert after"
 msgstr ""
 
-#: tpl/js-templates.php:472
+#: tpl/js-templates.php:474
 msgid "Insert before"
 msgstr ""
 
-#: tpl/js-templates.php:473
+#: tpl/js-templates.php:475
 msgid "Replace current"
 msgstr ""
 
-#: tpl/js-templates.php:484
+#: tpl/js-templates.php:486
 msgid "Do you want to browse the Prebuilt Layouts directory?"
 msgstr ""
 
-#: tpl/js-templates.php:485
+#: tpl/js-templates.php:487
 msgid "Enable"
 msgstr ""
 
-#: tpl/js-templates.php:498
+#: tpl/js-templates.php:500
 msgid "Your search didn't return any results"
 msgstr ""
 
-#: tpl/js-templates.php:526
+#: tpl/js-templates.php:528
 msgid "Previous"
 msgstr ""
 
-#: tpl/js-templates.php:527
+#: tpl/js-templates.php:529
 msgid "Next"
 msgstr ""
 
-#: tpl/js-templates.php:537
+#: tpl/js-templates.php:539
 msgid "Drop import file here"
 msgstr ""
 
-#: tpl/js-templates.php:538
+#: tpl/js-templates.php:540
 msgid "Or"
 msgstr ""
 
-#: tpl/js-templates.php:541
+#: tpl/js-templates.php:543
 msgid "Select Import File"
 msgstr ""
 
-#: tpl/js-templates.php:555
+#: tpl/js-templates.php:557
 msgid "Download Layout"
 msgstr ""
 
-#: tpl/js-templates.php:566
+#: tpl/js-templates.php:568
 msgid "Page Builder Change History"
 msgstr ""
 
-#: tpl/js-templates.php:581
+#: tpl/js-templates.php:583
 msgid "Restore Version"
 msgstr ""
 
-#: tpl/js-templates.php:604
+#: tpl/js-templates.php:606
 msgid "Save Draft"
 msgstr ""
 
-#: tpl/js-templates.php:605, tpl/js-templates.php:606
+#: tpl/js-templates.php:607, tpl/js-templates.php:608
 msgid "Update"
 msgstr ""
 
-#: tpl/js-templates.php:609
+#: tpl/js-templates.php:611
 msgid "Toggle desktop mode"
 msgstr ""
 
-#: tpl/js-templates.php:612
+#: tpl/js-templates.php:614
 msgid "Toggle tablet mode"
 msgstr ""
 
-#: tpl/js-templates.php:615
+#: tpl/js-templates.php:617
 msgid "Toggle mobile mode"
 msgstr ""
 
-#: tpl/js-templates.php:654
+#: tpl/js-templates.php:656
 msgid "No Results"
 msgstr ""
 
-#: tpl/js-templates.php:664
+#: tpl/js-templates.php:666
 msgid "Add SiteOrigin Layout Block"
 msgstr ""
 
@@ -2012,8 +2036,16 @@ msgstr ""
 msgid "Template"
 msgstr ""
 
+#: inc/widgets/post-loop-helper.php:50
+msgid "More link"
+msgstr ""
+
 #: inc/widgets/post-loop-helper.php:51, inc/widgets/post-loop.php:345
 msgid "If the template supports it, cut posts and display the more link."
+msgstr ""
+
+#: inc/widgets/post-loop-helper.php:56
+msgid "Posts query"
 msgstr ""
 
 #: inc/widgets/post-loop.php:277

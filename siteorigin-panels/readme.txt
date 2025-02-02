@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 2.31.3
-Build time: 2024-12-20T22:04:30+02:00
+Stable tag: 2.31.4
+Build time: 2025-02-02T19:59:24+00:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,13 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.31.4 – 02 February 2025 =
+* Added Compatibility for Events Manager.
+* AIOSEO: Loaded plugin widgets.
+* Refactored SEO plugin compatibility and restored Yoast Block Editor content parsing.
+* Layout Directory: Resolved incorrect empty search after search query.
+* WPML: Adjusted editor labels for the WPML 4.7 release.
 
 = 2.31.3 – 20 December 2024 =
 * WPML: Improved compatibility by excluding `panels_data` field from automatic translation handling.
