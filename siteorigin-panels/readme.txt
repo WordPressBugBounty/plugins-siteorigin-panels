@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 6.7
 Requires PHP: 7.0.0
-Stable tag: 2.31.4
-Build time: 2025-02-02T19:59:24+00:00
+Stable tag: 2.31.5
+Build time: 2025-02-26T22:04:10+00:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,11 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.31.5 – 26 February 2025 =
+* Improved Legacy Bundled Widget handling.
+* Removed `wp_targeted_link_rel` from preview generation.
+* Added `siteorigin_panels_compat_events_manager` filter to disable Events Manager compatibility.
 
 = 2.31.4 – 02 February 2025 =
 * Added Compatibility for Events Manager.
