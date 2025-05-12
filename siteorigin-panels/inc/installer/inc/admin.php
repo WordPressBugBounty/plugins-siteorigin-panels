@@ -46,8 +46,8 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 					<p>
 						<?php
 						printf(
-							__( '%s to install recommended SiteOrigin plugins and a SiteOrigin theme to get your site going.', 'siteorigin-installer' ),
-							'<a href="' . esc_url( admin_url( 'admin.php?page=siteorigin-installer' ) ) . '" target="_blank" rel="noopener noreferrer" >' . __( 'Click here', 'siteorigin-installer' ) . '</a>'
+							__( '%s to install recommended SiteOrigin plugins and a SiteOrigin theme to get your site going.', 'siteorigin-panels' ),
+							'<a href="' . esc_url( admin_url( 'admin.php?page=siteorigin-installer' ) ) . '" target="_blank" rel="noopener noreferrer" >' . __( 'Click here', 'siteorigin-panels' ) . '</a>'
 						);
 						?>
 					</p>
@@ -82,21 +82,23 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 				! defined( 'SITEORIGIN_INSTALLER_THEME_MODE' ) &&
 				empty( $GLOBALS['admin_page_hooks']['siteorigin'] )
 			) {
+				$svg = file_get_contents( SITEORIGIN_INSTALLER_DIR . '/img/menu-icon.svg' );
+
 				add_menu_page(
-					__( 'SiteOrigin', 'siteorigin-installer' ),
-					__( 'SiteOrigin', 'siteorigin-installer' ),
-					false,
+					__( 'SiteOrigin', 'siteorigin-panels' ),
+					__( 'SiteOrigin', 'siteorigin-panels' ),
+					'manage_options',
 					'admin.php?page=siteorigin-installer',
 					false,
-					SITEORIGIN_INSTALLER_URL . '/img/icon.svg',
+					'data:image/svg+xml;base64,' . base64_encode( $svg ),
 					66
 				);
 			}
 
 			add_submenu_page(
 				'siteorigin',
-				__( 'Installer', 'siteorigin-installer' ),
-				__( 'Installer', 'siteorigin-installer' ),
+				__( 'Installer', 'siteorigin-panels' ),
+				__( 'Installer', 'siteorigin-panels' ),
 				'manage_options',
 				'siteorigin-installer',
 				array( $this, 'display_admin_page' )
@@ -104,6 +106,13 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 		}
 
 		public function enqueue_scripts( $prefix ) {
+			wp_enqueue_style(
+				'siteorigin-installer-menu-icon',
+				SITEORIGIN_INSTALLER_URL . 'css/menu-icon.css',
+				array(),
+				SITEORIGIN_INSTALLER_VERSION
+			);
+
 			if (
 				$prefix !== 'admin_page_siteorigin-installer' &&
 				$prefix !== 'siteorigin_page_siteorigin-installer'
@@ -113,14 +122,14 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 
 			wp_enqueue_style(
 				'siteorigin-installer',
-				SITEORIGIN_INSTALLER_URL . '/css/admin.css',
+				SITEORIGIN_INSTALLER_URL . 'css/admin.css',
 				array(),
 				SITEORIGIN_INSTALLER_VERSION
 			);
 
 			wp_enqueue_script(
 				'siteorigin-installer',
-				SITEORIGIN_INSTALLER_URL . '/js/script.js',
+				SITEORIGIN_INSTALLER_URL . 'js/script.js',
 				array( 'jquery' ),
 				SITEORIGIN_INSTALLER_VERSION
 			);
@@ -130,7 +139,7 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 				'soInstallerAdmin',
 				array(
 					'manageUrl' => wp_nonce_url( admin_url( 'admin-ajax.php?action=siteorigin_installer_manage' ), 'siteorigin-installer-manage' ),
-					'activateText' => __( 'Activate', 'siteorigin-installer' ),
+					'activateText' => __( 'Activate', 'siteorigin-panels' ),
 				)
 			);
 		}

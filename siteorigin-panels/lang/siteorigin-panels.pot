@@ -1179,7 +1179,7 @@ msgstr ""
 msgid "Off"
 msgstr ""
 
-#: inc/styles-admin.php:915, widgets/widgets.php:905
+#: inc/styles-admin.php:915, widgets/widgets.php:925
 msgid "Full"
 msgstr ""
 
@@ -1407,7 +1407,7 @@ msgstr ""
 msgid "Collapse Order"
 msgstr ""
 
-#: inc/styles.php:459, widgets/widgets.php:724, widgets/widgets.php:901, inc/widgets/post-loop.php:474
+#: inc/styles.php:459, widgets/widgets.php:740, widgets/widgets.php:921, inc/widgets/post-loop.php:474
 msgid "Default"
 msgstr ""
 
@@ -1487,15 +1487,15 @@ msgstr ""
 msgid "Edit As Page"
 msgstr ""
 
-#: tpl/admin-home-page.php:42
+#: tpl/admin-home-page.php:44
 msgid "Home page updated. 1{View page}."
 msgstr ""
 
-#: tpl/admin-home-page.php:61
+#: tpl/admin-home-page.php:63
 msgid "Save Home Page"
 msgstr ""
 
-#: tpl/admin-home-page.php:65
+#: tpl/admin-home-page.php:67
 msgid "This interface requires Javascript"
 msgstr ""
 
@@ -1715,211 +1715,211 @@ msgstr ""
 msgid "This is a legacy Page Builder widget. Please move to use widgets from the %sSiteOrigin Widgets Bundle%s plugin when able."
 msgstr ""
 
-#: widgets/widgets.php:292
+#: widgets/widgets.php:294
 msgid "Style"
 msgstr ""
 
-#: widgets/widgets.php:322
+#: widgets/widgets.php:325
 msgid "%s Style"
 msgstr ""
 
-#: widgets/widgets.php:395
+#: widgets/widgets.php:402
 msgid "Template not found"
 msgstr ""
 
-#: widgets/widgets.php:683, inc/widgets/post-loop.php:363
+#: widgets/widgets.php:699, inc/widgets/post-loop.php:363
 msgid "Post Type"
 msgstr ""
 
-#: widgets/widgets.php:690, inc/widgets/post-loop.php:383
+#: widgets/widgets.php:706, inc/widgets/post-loop.php:383
 msgid "Posts Per Page"
 msgstr ""
 
-#: widgets/widgets.php:695, inc/widgets/post-loop.php:396
+#: widgets/widgets.php:711, inc/widgets/post-loop.php:396
 msgid "Order By"
 msgstr ""
 
-#: widgets/widgets.php:697, widgets/widgets.php:929, inc/widgets/post-content.php:81, inc/widgets/post-loop.php:406
+#: widgets/widgets.php:713, widgets/widgets.php:951, inc/widgets/post-content.php:81, inc/widgets/post-loop.php:406
 msgid "None"
 msgstr ""
 
-#: widgets/widgets.php:698, inc/widgets/post-loop.php:409
+#: widgets/widgets.php:714, inc/widgets/post-loop.php:409
 msgid "Post ID"
 msgstr ""
 
-#: widgets/widgets.php:699, inc/widgets/post-loop.php:412
+#: widgets/widgets.php:715, inc/widgets/post-loop.php:412
 msgid "Author"
 msgstr ""
 
-#: widgets/widgets.php:700, widgets/widgets.php:701, inc/widgets/post-loop.php:415, inc/widgets/post-loop.php:418, widgets/widgets/testimonial/testimonial.php:15
+#: widgets/widgets.php:716, widgets/widgets.php:717, inc/widgets/post-loop.php:415, inc/widgets/post-loop.php:418, widgets/widgets/testimonial/testimonial.php:15
 msgid "Name"
 msgstr ""
 
-#: widgets/widgets.php:702, inc/widgets/post-loop.php:421
+#: widgets/widgets.php:718, inc/widgets/post-loop.php:421
 msgid "Date"
 msgstr ""
 
-#: widgets/widgets.php:703, inc/widgets/post-loop.php:424
+#: widgets/widgets.php:719, inc/widgets/post-loop.php:424
 msgid "Modified"
 msgstr ""
 
-#: widgets/widgets.php:704, inc/widgets/post-loop.php:427
+#: widgets/widgets.php:720, inc/widgets/post-loop.php:427
 msgid "Parent"
 msgstr ""
 
-#: widgets/widgets.php:705, inc/widgets/post-loop.php:430
+#: widgets/widgets.php:721, inc/widgets/post-loop.php:430
 msgid "Random"
 msgstr ""
 
-#: widgets/widgets.php:706, inc/widgets/post-loop.php:433
+#: widgets/widgets.php:722, inc/widgets/post-loop.php:433
 msgid "Comment Count"
 msgstr ""
 
-#: widgets/widgets.php:707, inc/widgets/post-loop.php:436
+#: widgets/widgets.php:723, inc/widgets/post-loop.php:436
 msgid "Menu Order"
 msgstr ""
 
-#: widgets/widgets.php:713, inc/widgets/post-loop.php:446
+#: widgets/widgets.php:729, inc/widgets/post-loop.php:446
 msgid "Order"
 msgstr ""
 
-#: widgets/widgets.php:715, inc/widgets/post-loop.php:458
+#: widgets/widgets.php:731, inc/widgets/post-loop.php:458
 msgid "Ascending"
 msgstr ""
 
-#: widgets/widgets.php:716, inc/widgets/post-loop.php:455
+#: widgets/widgets.php:732, inc/widgets/post-loop.php:455
 msgid "Descending"
 msgstr ""
 
-#: widgets/widgets.php:722, inc/widgets/post-loop.php:465
+#: widgets/widgets.php:738, inc/widgets/post-loop.php:465
 msgid "Sticky Posts"
 msgstr ""
 
-#: widgets/widgets.php:725, inc/widgets/post-loop.php:477
+#: widgets/widgets.php:741, inc/widgets/post-loop.php:477
 msgid "Ignore Sticky"
 msgstr ""
 
-#: widgets/widgets.php:726, inc/widgets/post-loop.php:480
+#: widgets/widgets.php:742, inc/widgets/post-loop.php:480
 msgid "Exclude Sticky"
 msgstr ""
 
-#: widgets/widgets.php:727, inc/widgets/post-loop.php:483
+#: widgets/widgets.php:743, inc/widgets/post-loop.php:483
 msgid "Only Sticky"
 msgstr ""
 
-#: widgets/widgets.php:733
+#: widgets/widgets.php:749
 msgid "Additional Arguments"
 msgstr ""
 
-#: widgets/widgets.php:737, inc/widgets/post-loop.php:503
+#: widgets/widgets.php:753, inc/widgets/post-loop.php:503
 msgid "Additional query arguments. See 1{query_posts}."
 msgstr ""
 
-#: widgets/widgets.php:796
+#: widgets/widgets.php:813
 msgid "Gallery (PB)"
 msgstr ""
 
-#: widgets/widgets.php:798
+#: widgets/widgets.php:815
 msgid "Displays a gallery."
 msgstr ""
 
-#: widgets/widgets.php:890
+#: widgets/widgets.php:910
 msgid "Gallery Images"
 msgstr ""
 
-#: widgets/widgets.php:891
+#: widgets/widgets.php:911
 msgid "edit gallery"
 msgstr ""
 
-#: widgets/widgets.php:895
+#: widgets/widgets.php:915
 msgid "Comma separated attachment IDs. Defaults to all current page's attachments."
 msgstr ""
 
-#: widgets/widgets.php:899
+#: widgets/widgets.php:919
 msgid "Image Size"
 msgstr ""
 
-#: widgets/widgets.php:902
+#: widgets/widgets.php:922
 msgid "Large"
 msgstr ""
 
-#: widgets/widgets.php:903
+#: widgets/widgets.php:923
 msgid "Medium"
 msgstr ""
 
-#: widgets/widgets.php:904
+#: widgets/widgets.php:924
 msgid "Thumbnail"
 msgstr ""
 
-#: widgets/widgets.php:915
+#: widgets/widgets.php:937
 msgid "Gallery Type"
 msgstr ""
 
-#: widgets/widgets.php:920
+#: widgets/widgets.php:942
 msgid "Columns"
 msgstr ""
 
-#: widgets/widgets.php:925
+#: widgets/widgets.php:947
 msgid "Link To"
 msgstr ""
 
-#: widgets/widgets.php:927
+#: widgets/widgets.php:949
 msgid "Attachment Page"
 msgstr ""
 
-#: widgets/widgets.php:928
+#: widgets/widgets.php:950
 msgid "File"
 msgstr ""
 
-#: widgets/widgets.php:946
+#: widgets/widgets.php:969
 msgid "Image (PB)"
 msgstr ""
 
-#: widgets/widgets.php:948
+#: widgets/widgets.php:971
 msgid "Displays a simple image."
 msgstr ""
 
-#: widgets/widgets.php:991, widgets/widgets/animated-image/animated-image.php:15
+#: widgets/widgets.php:1020, widgets/widgets/animated-image/animated-image.php:15
 msgid "Image URL"
 msgstr ""
 
-#: widgets/widgets.php:995, widgets/widgets/button/button.php:19
+#: widgets/widgets.php:1024, widgets/widgets/button/button.php:19
 msgid "Destination URL"
 msgstr ""
 
-#: widgets/widgets.php:1009
+#: widgets/widgets.php:1039
 msgid "Embedded Video (PB)"
 msgstr ""
 
-#: widgets/widgets.php:1011
+#: widgets/widgets.php:1041
 msgid "Embeds a video."
 msgstr ""
 
-#: widgets/widgets.php:1048
+#: widgets/widgets.php:1083
 msgid "Video"
 msgstr ""
 
-#: widgets/widgets.php:1069
+#: widgets/widgets.php:1105
 msgid "Self Hosted Video (PB)"
 msgstr ""
 
-#: widgets/widgets.php:1071
+#: widgets/widgets.php:1107
 msgid "A self hosted video player."
 msgstr ""
 
-#: widgets/widgets.php:1119
+#: widgets/widgets.php:1163
 msgid "Video URL"
 msgstr ""
 
-#: widgets/widgets.php:1123
+#: widgets/widgets.php:1167
 msgid "Poster URL"
 msgstr ""
 
-#: widgets/widgets.php:1125
+#: widgets/widgets.php:1169
 msgid "An image that displays before the video starts playing."
 msgstr ""
 
-#: widgets/widgets.php:1130
+#: widgets/widgets.php:1174
 msgid "Auto Play Video"
 msgstr ""
 
@@ -1980,7 +1980,7 @@ msgid "https://siteorigin.com/installer/"
 msgstr ""
 
 #: inc/installer/siteorigin-installer.php:5
-msgid "This plugin installs all the SiteOrigin themes and plugins you need to get started with your new site."
+msgid "Easily install all essential SiteOrigin plugins and themes in one go for your WordPress site."
 msgstr ""
 
 #. translators: This is the name of a widget
@@ -2076,15 +2076,15 @@ msgstr ""
 msgid "Search Settings"
 msgstr ""
 
-#: settings/tpl/settings.php:25
+#: settings/tpl/settings.php:27
 msgid "Welcome"
 msgstr ""
 
-#: settings/tpl/settings.php:30
+#: settings/tpl/settings.php:32
 msgid "Settings Saved"
 msgstr ""
 
-#: settings/tpl/settings.php:88
+#: settings/tpl/settings.php:97
 msgid "Save Settings"
 msgstr ""
 
