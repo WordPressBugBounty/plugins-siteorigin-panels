@@ -110,11 +110,11 @@ msgstr ""
 msgid " - Results For:"
 msgstr ""
 
-#: inc/admin-layouts.php:454
+#: inc/admin-layouts.php:457
 msgid "Missing layout ID or no such layout exists"
 msgstr ""
 
-#: inc/admin-layouts.php:510
+#: inc/admin-layouts.php:513
 msgid "There was a problem fetching the layout. Please try again later."
 msgstr ""
 
@@ -366,7 +366,7 @@ msgstr ""
 msgid "Add Row"
 msgstr ""
 
-#: inc/admin.php:502, inc/styles.php:519
+#: inc/admin.php:502, inc/styles.php:532
 msgid "Column"
 msgstr ""
 
@@ -438,7 +438,7 @@ msgstr ""
 msgid "New Row"
 msgstr ""
 
-#: inc/admin.php:525, inc/admin.php:539, inc/styles.php:404, tpl/js-templates.php:67
+#: inc/admin.php:525, inc/admin.php:539, inc/styles.php:417, tpl/js-templates.php:67
 msgid "Row"
 msgstr ""
 
@@ -476,7 +476,7 @@ msgstr ""
 msgid "Add a {{%= items[0] %}}, {{%= items[1] %}} or {{%= items[2] %}} to get started."
 msgstr ""
 
-#: inc/admin.php:538, inc/styles.php:564, tpl/js-templates.php:66
+#: inc/admin.php:538, inc/styles.php:577, tpl/js-templates.php:66
 msgid "Widget"
 msgstr ""
 
@@ -1023,7 +1023,7 @@ msgstr ""
 msgid "Allow margin below the last row."
 msgstr ""
 
-#: inc/settings.php:508, inc/styles.php:502
+#: inc/settings.php:508, inc/styles.php:515
 msgid "Mobile Column Bottom Margin"
 msgstr ""
 
@@ -1139,7 +1139,7 @@ msgstr ""
 msgid "Theme"
 msgstr ""
 
-#: inc/styles-admin.php:216, inc/styles.php:472, inc/styles.php:527
+#: inc/styles-admin.php:216, inc/styles.php:485, inc/styles.php:540
 msgid "Top"
 msgstr ""
 
@@ -1147,7 +1147,7 @@ msgstr ""
 msgid "Right"
 msgstr ""
 
-#: inc/styles-admin.php:224, inc/styles.php:474, inc/styles.php:529
+#: inc/styles-admin.php:224, inc/styles.php:487, inc/styles.php:542
 msgid "Bottom"
 msgstr ""
 
@@ -1187,295 +1187,303 @@ msgstr ""
 msgid "Thumbnail (Theme-defined)"
 msgstr ""
 
-#: inc/styles.php:136
+#: inc/styles.php:141
 msgid "%s ID"
 msgstr ""
 
-#: inc/styles.php:139
+#: inc/styles.php:144
 msgid "A custom ID used for this %s."
 msgstr ""
 
-#: inc/styles.php:144
+#: inc/styles.php:149
 msgid "%s Class"
 msgstr ""
 
-#: inc/styles.php:147
+#: inc/styles.php:152
 msgid "A custom class used for this %s."
 msgstr ""
 
-#: inc/styles.php:152
+#: inc/styles.php:157
 msgid "CSS Declarations"
 msgstr ""
 
-#: inc/styles.php:155
+#: inc/styles.php:160
 msgid "One declaration per line."
 msgstr ""
 
-#: inc/styles.php:160
+#: inc/styles.php:165
 msgid "Mobile CSS Declarations"
 msgstr ""
 
-#: inc/styles.php:163
+#: inc/styles.php:168
 msgid "CSS declarations applied when in mobile view."
 msgstr ""
 
-#: inc/styles.php:169
+#: inc/styles.php:174
 msgid "Padding"
 msgstr ""
 
-#: inc/styles.php:179
+#: inc/styles.php:184
 msgid "Tablet Padding"
 msgstr ""
 
-#: inc/styles.php:182
+#: inc/styles.php:187
 msgid "Padding when on tablet devices."
 msgstr ""
 
-#: inc/styles.php:189
+#: inc/styles.php:194
 msgid "Tablet Margin"
 msgstr ""
 
-#: inc/styles.php:192
+#: inc/styles.php:197
 msgid "Margins around the widget when on tablet devices."
 msgstr ""
 
-#: inc/styles.php:202
+#: inc/styles.php:207
 msgid "Mobile Margin"
 msgstr ""
 
-#: inc/styles.php:205
+#: inc/styles.php:210
 msgid "Margins around the widget when on mobile devices."
 msgstr ""
 
-#: inc/styles.php:212
+#: inc/styles.php:217
 msgid "Mobile Padding"
 msgstr ""
 
-#: inc/styles.php:215
+#: inc/styles.php:220
 msgid "Padding when on mobile devices."
 msgstr ""
 
-#: inc/styles.php:223
+#: inc/styles.php:228
 msgid "Background Color"
 msgstr ""
 
-#: inc/styles.php:231
+#: inc/styles.php:236
 msgid "Background Image"
 msgstr ""
 
-#: inc/styles.php:238
-msgid "Background Image Display"
-msgstr ""
-
-#: inc/styles.php:242
-msgid "Tiled Image"
-msgstr ""
-
 #: inc/styles.php:243
-msgid "Cover"
-msgstr ""
-
-#: inc/styles.php:244
-msgid "Centered, with original size"
-msgstr ""
-
-#: inc/styles.php:245
-msgid "Contain"
-msgstr ""
-
-#: inc/styles.php:246
-msgid "Fixed"
+msgid "Background Image Alt Text"
 msgstr ""
 
 #: inc/styles.php:247
-msgid "Parallax"
+msgid "Leave empty for decorative images."
 msgstr ""
 
-#: inc/styles.php:253
-msgid "Background Image Size"
+#: inc/styles.php:251
+msgid "Background Image Display"
+msgstr ""
+
+#: inc/styles.php:255
+msgid "Tiled Image"
+msgstr ""
+
+#: inc/styles.php:256
+msgid "Cover"
+msgstr ""
+
+#: inc/styles.php:257
+msgid "Centered, with original size"
+msgstr ""
+
+#: inc/styles.php:258
+msgid "Contain"
+msgstr ""
+
+#: inc/styles.php:259
+msgid "Fixed"
 msgstr ""
 
 #: inc/styles.php:260
+msgid "Parallax"
+msgstr ""
+
+#: inc/styles.php:266
+msgid "Background Image Size"
+msgstr ""
+
+#: inc/styles.php:273
 msgid "Background Image Opacity"
 msgstr ""
 
-#: inc/styles.php:267
+#: inc/styles.php:280
 msgid "Border Color"
 msgstr ""
 
-#: inc/styles.php:274
+#: inc/styles.php:287
 msgid "Border Thickness"
 msgstr ""
 
-#: inc/styles.php:283
+#: inc/styles.php:296
 msgid "Border Radius"
 msgstr ""
 
-#: inc/styles.php:291
+#: inc/styles.php:304
 msgid "Box Shadow"
 msgstr ""
 
-#: inc/styles.php:297, inc/styles.php:344
+#: inc/styles.php:310, inc/styles.php:357
 msgid "Color"
 msgstr ""
 
-#: inc/styles.php:305, inc/styles.php:351
+#: inc/styles.php:318, inc/styles.php:364
 msgid "Inset"
 msgstr ""
 
-#: inc/styles.php:309, inc/styles.php:355
+#: inc/styles.php:322, inc/styles.php:368
 msgid "Inset box shadows appear inside the %s."
 msgstr ""
 
-#: inc/styles.php:312, inc/styles.php:358
+#: inc/styles.php:325, inc/styles.php:371
 msgid "Horizontal Offset"
 msgstr ""
 
-#: inc/styles.php:318, inc/styles.php:364
+#: inc/styles.php:331, inc/styles.php:377
 msgid "Vertical Offset"
 msgstr ""
 
-#: inc/styles.php:324, inc/styles.php:370
+#: inc/styles.php:337, inc/styles.php:383
 msgid "Blur"
 msgstr ""
 
-#: inc/styles.php:330, inc/styles.php:376
+#: inc/styles.php:343, inc/styles.php:389
 msgid "Spread"
 msgstr ""
 
-#: inc/styles.php:338
+#: inc/styles.php:351
 msgid "Box Shadow Hover"
 msgstr ""
 
-#: inc/styles.php:385
+#: inc/styles.php:398
 msgid "Full Height"
 msgstr ""
 
-#: inc/styles.php:390
+#: inc/styles.php:403
 msgid "Set the minimum height of the row to the full height of the browser."
 msgstr ""
 
-#: inc/styles.php:407
+#: inc/styles.php:420
 msgid "Column Class"
 msgstr ""
 
-#: inc/styles.php:410
+#: inc/styles.php:423
 msgid "Class added to all columns in this row."
 msgstr ""
 
-#: inc/styles.php:416
+#: inc/styles.php:429
 msgid "Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:419
+#: inc/styles.php:432
 msgid "Space below the row. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:424
+#: inc/styles.php:437
 msgid "Gutter"
 msgstr ""
 
-#: inc/styles.php:427
+#: inc/styles.php:440
 msgid "Amount of space between columns. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:432
+#: inc/styles.php:445
 msgid "Row Layout"
 msgstr ""
 
-#: inc/styles.php:436, inc/styles.php:448
+#: inc/styles.php:449, inc/styles.php:461
 msgid "Standard"
 msgstr ""
 
-#: inc/styles.php:437
+#: inc/styles.php:450
 msgid "Full Width"
 msgstr ""
 
-#: inc/styles.php:438
+#: inc/styles.php:451
 msgid "Full Width Stretched"
 msgstr ""
 
-#: inc/styles.php:444
+#: inc/styles.php:457
 msgid "Collapse Behaviour"
 msgstr ""
 
-#: inc/styles.php:449
+#: inc/styles.php:462
 msgid "No Collapse"
 msgstr ""
 
-#: inc/styles.php:455
+#: inc/styles.php:468
 msgid "Collapse Order"
 msgstr ""
 
-#: inc/styles.php:459, widgets/widgets.php:740, widgets/widgets.php:921, inc/widgets/post-loop.php:474
+#: inc/styles.php:472, widgets/widgets.php:740, widgets/widgets.php:921, inc/widgets/post-loop.php:477
 msgid "Default"
 msgstr ""
 
-#: inc/styles.php:460
+#: inc/styles.php:473
 msgid "Left on Top"
 msgstr ""
 
-#: inc/styles.php:461
+#: inc/styles.php:474
 msgid "Right on Top"
 msgstr ""
 
-#: inc/styles.php:468
+#: inc/styles.php:481
 msgid "Column Vertical Alignment"
 msgstr ""
 
-#: inc/styles.php:473, inc/styles.php:528, widgets/widgets/button/button.php:31
+#: inc/styles.php:486, inc/styles.php:541, widgets/widgets/button/button.php:31
 msgid "Center"
 msgstr ""
 
-#: inc/styles.php:475, inc/styles.php:530
+#: inc/styles.php:488, inc/styles.php:543
 msgid "Stretch"
 msgstr ""
 
-#: inc/styles.php:484
+#: inc/styles.php:497
 msgid "Tablet Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:487
+#: inc/styles.php:500
 msgid "Space below the row on tablet devices. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:494
+#: inc/styles.php:507
 msgid "Mobile Bottom Margin"
 msgstr ""
 
-#: inc/styles.php:497
+#: inc/styles.php:510
 msgid "Space below the row on mobile devices. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:505
+#: inc/styles.php:518
 msgid "Vertical space between columns in a collapsed mobile row. Default is %spx."
 msgstr ""
 
-#: inc/styles.php:522
+#: inc/styles.php:535
 msgid "Vertical Alignment"
 msgstr ""
 
-#: inc/styles.php:526
+#: inc/styles.php:539
 msgid "Use row setting"
 msgstr ""
 
-#: inc/styles.php:536, inc/styles.php:578
+#: inc/styles.php:549, inc/styles.php:591
 msgid "Font Color"
 msgstr ""
 
-#: inc/styles.php:543, inc/styles.php:585
+#: inc/styles.php:556, inc/styles.php:598
 msgid "Link Color"
 msgstr ""
 
-#: inc/styles.php:550, inc/styles.php:592
+#: inc/styles.php:563, inc/styles.php:605
 msgid "Link Hover Color"
 msgstr ""
 
-#: inc/styles.php:567
+#: inc/styles.php:580
 msgid "Margin"
 msgstr ""
 
-#: inc/styles.php:570
+#: inc/styles.php:583
 msgid "Margins around the widget."
 msgstr ""
 
@@ -1727,83 +1735,83 @@ msgstr ""
 msgid "Template not found"
 msgstr ""
 
-#: widgets/widgets.php:699, inc/widgets/post-loop.php:363
+#: widgets/widgets.php:699, inc/widgets/post-loop.php:366
 msgid "Post Type"
 msgstr ""
 
-#: widgets/widgets.php:706, inc/widgets/post-loop.php:383
+#: widgets/widgets.php:706, inc/widgets/post-loop.php:386
 msgid "Posts Per Page"
 msgstr ""
 
-#: widgets/widgets.php:711, inc/widgets/post-loop.php:396
+#: widgets/widgets.php:711, inc/widgets/post-loop.php:399
 msgid "Order By"
 msgstr ""
 
-#: widgets/widgets.php:713, widgets/widgets.php:951, inc/widgets/post-content.php:81, inc/widgets/post-loop.php:406
+#: widgets/widgets.php:713, widgets/widgets.php:951, inc/widgets/post-content.php:81, inc/widgets/post-loop.php:409
 msgid "None"
 msgstr ""
 
-#: widgets/widgets.php:714, inc/widgets/post-loop.php:409
+#: widgets/widgets.php:714, inc/widgets/post-loop.php:412
 msgid "Post ID"
 msgstr ""
 
-#: widgets/widgets.php:715, inc/widgets/post-loop.php:412
+#: widgets/widgets.php:715, inc/widgets/post-loop.php:415
 msgid "Author"
 msgstr ""
 
-#: widgets/widgets.php:716, widgets/widgets.php:717, inc/widgets/post-loop.php:415, inc/widgets/post-loop.php:418, widgets/widgets/testimonial/testimonial.php:15
+#: widgets/widgets.php:716, widgets/widgets.php:717, inc/widgets/post-loop.php:418, inc/widgets/post-loop.php:421, widgets/widgets/testimonial/testimonial.php:15
 msgid "Name"
 msgstr ""
 
-#: widgets/widgets.php:718, inc/widgets/post-loop.php:421
+#: widgets/widgets.php:718, inc/widgets/post-loop.php:424
 msgid "Date"
 msgstr ""
 
-#: widgets/widgets.php:719, inc/widgets/post-loop.php:424
+#: widgets/widgets.php:719, inc/widgets/post-loop.php:427
 msgid "Modified"
 msgstr ""
 
-#: widgets/widgets.php:720, inc/widgets/post-loop.php:427
+#: widgets/widgets.php:720, inc/widgets/post-loop.php:430
 msgid "Parent"
 msgstr ""
 
-#: widgets/widgets.php:721, inc/widgets/post-loop.php:430
+#: widgets/widgets.php:721, inc/widgets/post-loop.php:433
 msgid "Random"
 msgstr ""
 
-#: widgets/widgets.php:722, inc/widgets/post-loop.php:433
+#: widgets/widgets.php:722, inc/widgets/post-loop.php:436
 msgid "Comment Count"
 msgstr ""
 
-#: widgets/widgets.php:723, inc/widgets/post-loop.php:436
+#: widgets/widgets.php:723, inc/widgets/post-loop.php:439
 msgid "Menu Order"
 msgstr ""
 
-#: widgets/widgets.php:729, inc/widgets/post-loop.php:446
+#: widgets/widgets.php:729, inc/widgets/post-loop.php:449
 msgid "Order"
 msgstr ""
 
-#: widgets/widgets.php:731, inc/widgets/post-loop.php:458
+#: widgets/widgets.php:731, inc/widgets/post-loop.php:461
 msgid "Ascending"
 msgstr ""
 
-#: widgets/widgets.php:732, inc/widgets/post-loop.php:455
+#: widgets/widgets.php:732, inc/widgets/post-loop.php:458
 msgid "Descending"
 msgstr ""
 
-#: widgets/widgets.php:738, inc/widgets/post-loop.php:465
+#: widgets/widgets.php:738, inc/widgets/post-loop.php:468
 msgid "Sticky Posts"
 msgstr ""
 
-#: widgets/widgets.php:741, inc/widgets/post-loop.php:477
+#: widgets/widgets.php:741, inc/widgets/post-loop.php:480
 msgid "Ignore Sticky"
 msgstr ""
 
-#: widgets/widgets.php:742, inc/widgets/post-loop.php:480
+#: widgets/widgets.php:742, inc/widgets/post-loop.php:483
 msgid "Exclude Sticky"
 msgstr ""
 
-#: widgets/widgets.php:743, inc/widgets/post-loop.php:483
+#: widgets/widgets.php:743, inc/widgets/post-loop.php:486
 msgid "Only Sticky"
 msgstr ""
 
@@ -1811,7 +1819,7 @@ msgstr ""
 msgid "Additional Arguments"
 msgstr ""
 
-#: widgets/widgets.php:753, inc/widgets/post-loop.php:503
+#: widgets/widgets.php:753, inc/widgets/post-loop.php:506
 msgid "Additional query arguments. See 1{query_posts}."
 msgstr ""
 
@@ -2012,7 +2020,7 @@ msgstr ""
 msgid "This widget should not be used in the main post area."
 msgstr ""
 
-#: inc/widgets/post-content.php:82, inc/widgets/post-loop-helper.php:40, inc/widgets/post-loop.php:307, widgets/widgets/call-to-action/call-to-action.php:15, widgets/widgets/list/list.php:15, widgets/widgets/price-box/price-box.php:15
+#: inc/widgets/post-content.php:82, inc/widgets/post-loop-helper.php:40, inc/widgets/post-loop.php:310, widgets/widgets/call-to-action/call-to-action.php:15, widgets/widgets/list/list.php:15, widgets/widgets/price-box/price-box.php:15
 msgid "Title"
 msgstr ""
 
@@ -2032,7 +2040,7 @@ msgstr ""
 msgid "Displays a post loop."
 msgstr ""
 
-#: inc/widgets/post-loop-helper.php:44, inc/widgets/post-loop.php:312
+#: inc/widgets/post-loop-helper.php:44, inc/widgets/post-loop.php:315
 msgid "Template"
 msgstr ""
 
@@ -2040,7 +2048,7 @@ msgstr ""
 msgid "More link"
 msgstr ""
 
-#: inc/widgets/post-loop-helper.php:51, inc/widgets/post-loop.php:345
+#: inc/widgets/post-loop-helper.php:51, inc/widgets/post-loop.php:348
 msgid "If the template supports it, cut posts and display the more link."
 msgstr ""
 
@@ -2048,23 +2056,23 @@ msgstr ""
 msgid "Posts query"
 msgstr ""
 
-#: inc/widgets/post-loop.php:277
+#: inc/widgets/post-loop.php:280
 msgid "Your theme doesn't have any post loops."
 msgstr ""
 
-#: inc/widgets/post-loop.php:334
+#: inc/widgets/post-loop.php:337
 msgid "More Link"
 msgstr ""
 
-#: inc/widgets/post-loop.php:439
+#: inc/widgets/post-loop.php:442
 msgid "Post In Order"
 msgstr ""
 
-#: inc/widgets/post-loop.php:490
+#: inc/widgets/post-loop.php:493
 msgid "Additional "
 msgstr ""
 
-#: inc/widgets/post-loop.php:510
+#: inc/widgets/post-loop.php:513
 msgid "Help"
 msgstr ""
 

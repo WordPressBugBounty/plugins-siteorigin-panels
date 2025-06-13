@@ -86,3 +86,11 @@ body.siteorigin-panels-before-js:not(.siteorigin-panels-css-container) .siteorig
   padding-right: 1000px !important;
   padding-left: 1000px !important;
 }
+.so-sr-only {
+  height: 1px;
+  left: -10000px;
+  overflow: hidden;
+  position: absolute;
+  top: auto;
+  width: 1px;
+}
