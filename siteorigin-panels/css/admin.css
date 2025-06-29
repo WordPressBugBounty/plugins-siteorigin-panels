@@ -654,170 +654,6 @@
   opacity: 0.9;
   pointer-events: none;
   border: 1px solid rgba(0, 0, 0, 0.35) !important;
-  background: #f9f9fb;
-  border: 1px solid rgba(255, 255, 255, 0.75);
-  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.075);
-  -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.075);
-  box-shadow: 0 1px 1px rgba(0,0,0,0.075);
-  -ms-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  cursor: move;
-  margin-bottom: 6px;
-  max-height: 49px;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-no-move {
-  cursor: auto;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged:focus,
-.so-widget.ui-sortable-helper.widget-being-dragged:hover {
-  border: 1px solid rgba(255, 255, 255, 0.55);
-  background: #fff;
-  -webkit-box-shadow: 0 0 2px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 0 2px rgba(0,0,0,0.1);
-  box-shadow: 0 0 2px rgba(0,0,0,0.1);
-}
-.so-widget.ui-sortable-helper.widget-being-dragged:focus .title .actions a,
-.so-widget.ui-sortable-helper.widget-being-dragged:focus-within .title .actions a {
-  display: inline-block;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .so-widget-wrapper {
-  padding: 7px 8px;
-  overflow: hidden;
-  position: relative;
-  height: 100%;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged h4 {
-  -webkit-text-size-adjust: 100%;
-  color: #474747;
-  cursor: pointer;
-  display: block;
-  font-size: 13px;
-  font-weight: 600;
-  line-height: 1.25em;
-  margin: 0 15px 3px 0;
-  text-shadow: 0 1px 0 #FFF;
-  white-space: nowrap;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged h4 span {
-  font-weight: normal;
-  display: inline-block;
-  color: #999;
-  text-shadow: 0 1px 0 #FFF;
-  margin-left: 12px;
-  margin-right: 5px;
-  font-style: italic;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-no-edit h4 {
-  cursor: auto;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .title .actions {
-  background: #feffff;
-  cursor: pointer;
-  font-size: 12px;
-  opacity: 0;
-  padding: 2px 8px 2px 15px;
-  position: absolute;
-  right: 0;
-  top: 5px;
-  z-index: 10;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .title .actions:hover a {
-  opacity: 1;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .title .actions a {
-  box-shadow: none;
-  color: #0073aa;
-  display: none;
-  margin-right: 3px;
-  text-decoration: none;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .title .actions a:hover {
-  color: #00a0d2;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .title .actions a.widget-delete {
-  color: #ff0000;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .title .actions a.widget-delete:hover {
-  color: #fff;
-  background: #ff0000;
-}
-@media (max-width: 782px) {
-  .so-widget.ui-sortable-helper.widget-being-dragged .title .actions {
-    position: static;
-    opacity: 1;
-    padding-left: 0;
-    display: flex;
-    justify-content: space-between;
-  }
-  .so-widget.ui-sortable-helper.widget-being-dragged .title .actions a {
-    display: inline-block;
-  }
-}
-.so-widget.ui-sortable-helper.widget-being-dragged:hover .title a,
-.so-widget.ui-sortable-helper.widget-being-dragged:focus .title a {
-  display: inline-block;
-  opacity: 0.5;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged:hover .actions,
-.so-widget.ui-sortable-helper.widget-being-dragged:focus .actions {
-  opacity: 1;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.panel-being-dragged .title .actions {
-  display: none;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged small {
-  color: #777 !important;
-  display: block;
-  font-size: 10.8333px;
-  height: 16px;
-  overflow: hidden;
-}
-@media (max-width: 782px) {
-  .so-widget.ui-sortable-helper.widget-being-dragged small {
-    display: none;
-  }
-}
-.so-widget.ui-sortable-helper.widget-being-dragged .form {
-  display: none;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-read-only,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-read-only:hover {
-  background: #f5f5f5;
-  border: 1px solid #a6bac1;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-read-only h4,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-read-only:hover h4,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-read-only small,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-widget-read-only:hover small {
-  opacity: 0.5;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hovered {
-  background: #3a7096;
-  border: 1px solid #39618c;
-  -webkit-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-  -moz-box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-  box-shadow: 0 2px 2px rgba(0,0,0,0.1);
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hovered h4,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hovered span,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hovered small {
-  color: #fff;
-  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hovered small {
-  color: #eee;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hidden-widget {
-  opacity: 0.7;
-}
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hidden-widget:focus,
-.so-widget.ui-sortable-helper.widget-being-dragged.so-hidden-widget:hover {
-  opacity: 1;
 }
 .widgets-holder-wrap .widget-inside .siteorigin-panels-builder .so-builder-container {
   padding-top: 0;
@@ -1349,6 +1185,11 @@
     bottom: 30px;
   }
 }
+.so-panels-dialog .so-toolbar .so-mode,
+.block-editor-page .so-toolbar .so-mode,
+.wp-customizer .so-toolbar .so-mode {
+  display: none;
+}
 .so-panels-dialog .so-toolbar .so-status,
 .block-editor-page .so-toolbar .so-status,
 .wp-customizer .so-toolbar .so-status {
@@ -1418,13 +1259,6 @@
 .wp-customizer .so-toolbar .so-buttons .action-buttons .so-duplicate:hover {
   text-decoration: underline;
 }
-@media (max-width: 980px) {
-  .so-panels-dialog .so-toolbar .so-buttons .so-mode.button-secondary.so-mode,
-  .block-editor-page .so-toolbar .so-buttons .so-mode.button-secondary.so-mode,
-  .wp-customizer .so-toolbar .so-buttons .so-mode.button-secondary.so-mode {
-    display: none;
-  }
-}
 @media (min-width: 980px) {
   .so-panels-dialog .so-toolbar .so-buttons .save-buttons,
   .block-editor-page .so-toolbar .so-buttons .save-buttons,
@@ -1442,6 +1276,19 @@
   .wp-customizer .so-toolbar .so-buttons .save-buttons .button-primary.so-saveinline {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
+    margin-right: -1px;
+  }
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-button-mode,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-button-mode,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-button-mode {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-button-mode.so-mode,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-button-mode.so-mode,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-button-mode.so-mode {
+    display: flex !important;
   }
   .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode,
   .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode,
