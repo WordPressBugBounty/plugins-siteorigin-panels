@@ -1265,51 +1265,51 @@
   .wp-customizer .so-toolbar .so-buttons .save-buttons {
     display: flex;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .button-primary.so-close,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .button-primary.so-close,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .button-primary.so-close,
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .button-primary.so-save,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .button-primary.so-save,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .button-primary.so-save,
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .button-primary.so-saveinline,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .button-primary.so-saveinline,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .button-primary.so-saveinline {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-close,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-close,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-close,
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-save,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-save,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-save,
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-saveinline,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-saveinline,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .button-primary.so-saveinline {
     border-bottom-right-radius: 0;
     border-top-right-radius: 0;
     margin-right: -1px;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-button-mode,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-button-mode,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-button-mode {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-button-mode,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-button-mode,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-button-mode {
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     border-left: 1px solid rgba(0, 0, 0, 0.1);
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-button-mode.so-mode,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-button-mode.so-mode,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-button-mode.so-mode {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-button-mode.so-mode,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-button-mode.so-mode,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-button-mode.so-mode {
     display: flex !important;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-mode {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode {
     align-items: center;
     border-bottom-left-radius: 0;
     border-top-left-radius: 0;
     display: flex;
     justify-content: center;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode:before,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode:before,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-mode:before {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode:before,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode:before,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode:before {
     content: "\f11c";
     height: auto;
     line-height: 0;
     transform: rotate(90deg);
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode-list,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode-list,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-mode-list {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list {
     background: #fff;
     border: 1px solid #ededed;
     font-size: 12px;
@@ -1317,21 +1317,21 @@
     right: 14px;
     top: -49%;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode-list li,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode-list li,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-mode-list li {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list li,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list li,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list li {
     cursor: pointer;
     padding: 6px 8px;
     margin: 0;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode-list li:hover,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode-list li:hover,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-mode-list li:hover {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list li:hover,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list li:hover,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list li:hover {
     background: #f5f5f5;
   }
-  .so-panels-dialog .so-toolbar .so-buttons .save-buttons .so-mode-list .so-close-mode,
-  .block-editor-page .so-toolbar .so-buttons .save-buttons .so-mode-list .so-close-mode,
-  .wp-customizer .so-toolbar .so-buttons .save-buttons .so-mode-list .so-close-mode {
+  .so-panels-dialog .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list .so-close-mode,
+  .block-editor-page .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list .so-close-mode,
+  .wp-customizer .so-toolbar .so-buttons .save-buttons:has(.so-button-mode ) .so-mode-list .so-close-mode {
     border-top: 1px solid #f5f5f5;
   }
 }
@@ -2311,9 +2311,73 @@
   display: flex;
   flex-flow: row wrap;
 }
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters {
+  display: flex;
+  gap: 24px;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters > div,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters > div,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters > div {
+  display: flex;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters ul,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters ul,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters ul {
+  margin: 0;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters span,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters span,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters span,
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li {
+  display: inline-block;
+  padding: 5px 7.5px;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters span,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters span,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters span {
+  font-weight: 600;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li {
+  cursor: pointer;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li:focus,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li:focus,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li:focus,
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li:hover,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li:hover,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li:hover {
+  background: #f3f3f3;
+  text-decoration: none;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li.so-active-filter,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li.so-active-filter,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items-filters li.so-active-filter {
+  background: #f3f3f3;
+  cursor: default;
+  text-decoration: none;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items.so-empty .so-no-results,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items.so-empty .so-no-results,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items.so-empty .so-no-results {
+  display: block;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items.so-empty .so-directory-pages,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items.so-empty .so-directory-pages,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items.so-empty .so-directory-pages {
+  display: none;
+}
 .so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-no-results,
 .block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-no-results,
 .wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-no-results {
+  display: none;
   margin: 20px 0;
   padding: 0 5px;
 }
@@ -2325,6 +2389,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 6px;
+}
+.so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-directory-item.so-hidden,
+.block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-directory-item.so-hidden,
+.wp-customizer.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-directory-item.so-hidden {
+  display: none;
 }
 .so-panels-dialog.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-directory-item .so-directory-item-wrapper,
 .block-editor-page.so-panels-dialog-prebuilt-layouts .so-content .so-directory-items .so-directory-item .so-directory-item-wrapper,

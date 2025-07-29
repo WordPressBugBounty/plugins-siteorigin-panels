@@ -28,11 +28,11 @@ msgstr ""
 msgid "A drag and drop, responsive page builder that simplifies building your website."
 msgstr ""
 
-#: siteorigin-panels.php:7, inc/installer/siteorigin-installer.php:6
+#: siteorigin-panels.php:7, inc/installer/siteorigin-installer.php:9
 msgid "SiteOrigin"
 msgstr ""
 
-#: siteorigin-panels.php:8, inc/installer/siteorigin-installer.php:7
+#: siteorigin-panels.php:8, inc/installer/siteorigin-installer.php:11
 msgid "https://siteorigin.com"
 msgstr ""
 
@@ -90,7 +90,7 @@ msgstr ""
 msgid "Get Premium"
 msgstr ""
 
-#: inc/admin-layouts.php:46, inc/admin-layouts.php:268
+#: inc/admin-layouts.php:46, inc/admin-layouts.php:278
 msgid "Layouts Directory"
 msgstr ""
 
@@ -102,20 +102,16 @@ msgstr ""
 msgid "Theme Defined Layouts"
 msgstr ""
 
-#: inc/admin-layouts.php:356
+#: inc/admin-layouts.php:380
 msgid "Clone %s"
 msgstr ""
 
-#: inc/admin-layouts.php:393
+#: inc/admin-layouts.php:417
 msgid " - Results For:"
 msgstr ""
 
-#: inc/admin-layouts.php:457
+#: inc/admin-layouts.php:516
 msgid "Missing layout ID or no such layout exists"
-msgstr ""
-
-#: inc/admin-layouts.php:513
-msgid "There was a problem fetching the layout. Please try again later."
 msgstr ""
 
 #: inc/admin-widget-dialog.php:101
@@ -1579,7 +1575,7 @@ msgstr ""
 msgid "Add New Widget %s"
 msgstr ""
 
-#: tpl/js-templates.php:256, tpl/js-templates.php:609
+#: tpl/js-templates.php:256, tpl/js-templates.php:669
 msgid "Close"
 msgstr ""
 
@@ -1655,67 +1651,79 @@ msgstr ""
 msgid "Enable"
 msgstr ""
 
-#: tpl/js-templates.php:500
+#: tpl/js-templates.php:505
+msgid "Category:"
+msgstr ""
+
+#: tpl/js-templates.php:510
+msgid "All Categories"
+msgstr ""
+
+#: tpl/js-templates.php:526
+msgid "Niches:"
+msgstr ""
+
+#: tpl/js-templates.php:545
 msgid "Your search didn't return any results"
 msgstr ""
 
-#: tpl/js-templates.php:528
+#: tpl/js-templates.php:588
 msgid "Previous"
 msgstr ""
 
-#: tpl/js-templates.php:529
+#: tpl/js-templates.php:589
 msgid "Next"
 msgstr ""
 
-#: tpl/js-templates.php:539
+#: tpl/js-templates.php:599
 msgid "Drop import file here"
 msgstr ""
 
-#: tpl/js-templates.php:540
+#: tpl/js-templates.php:600
 msgid "Or"
 msgstr ""
 
-#: tpl/js-templates.php:543
+#: tpl/js-templates.php:603
 msgid "Select Import File"
 msgstr ""
 
-#: tpl/js-templates.php:557
+#: tpl/js-templates.php:617
 msgid "Download Layout"
 msgstr ""
 
-#: tpl/js-templates.php:568
+#: tpl/js-templates.php:628
 msgid "Page Builder Change History"
 msgstr ""
 
-#: tpl/js-templates.php:583
+#: tpl/js-templates.php:643
 msgid "Restore Version"
 msgstr ""
 
-#: tpl/js-templates.php:606
+#: tpl/js-templates.php:666
 msgid "Save Draft"
 msgstr ""
 
-#: tpl/js-templates.php:607, tpl/js-templates.php:608
+#: tpl/js-templates.php:667, tpl/js-templates.php:668
 msgid "Update"
 msgstr ""
 
-#: tpl/js-templates.php:611
+#: tpl/js-templates.php:671
 msgid "Toggle desktop mode"
 msgstr ""
 
-#: tpl/js-templates.php:614
+#: tpl/js-templates.php:674
 msgid "Toggle tablet mode"
 msgstr ""
 
-#: tpl/js-templates.php:617
+#: tpl/js-templates.php:677
 msgid "Toggle mobile mode"
 msgstr ""
 
-#: tpl/js-templates.php:656
+#: tpl/js-templates.php:716
 msgid "No Results"
 msgstr ""
 
-#: tpl/js-templates.php:666
+#: tpl/js-templates.php:726
 msgid "Add SiteOrigin Layout Block"
 msgstr ""
 
@@ -1984,11 +1992,11 @@ msgid "SiteOrigin Installer"
 msgstr ""
 
 #: inc/installer/siteorigin-installer.php:4
-msgid "https://siteorigin.com/installer/"
+msgid "Streamline your WordPress setup with SiteOrigin's essential plugins and compatible themes in one go."
 msgstr ""
 
-#: inc/installer/siteorigin-installer.php:5
-msgid "Easily install all essential SiteOrigin plugins and themes in one go for your WordPress site."
+#: inc/installer/siteorigin-installer.php:12
+msgid "https://siteorigin.com/installer/"
 msgstr ""
 
 #. translators: This is the name of a widget

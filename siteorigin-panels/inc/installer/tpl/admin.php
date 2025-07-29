@@ -70,24 +70,33 @@
 								! empty( $item['update'] ) ||
 								$item['type'] == 'themes'
 							) {
-								if ( $slug == 'siteorigin-premium' ) {
-									$premium_url = 'https://siteorigin.com/downloads/premium/';
-									$affiliate_id = apply_filters( 'siteorigin_premium_affiliate_id', '' );
-									if ( $affiliate_id && is_numeric( $affiliate_id ) ) {
-										$premium_url = add_query_arg( 'ref', urlencode( $affiliate_id ), $premium_url );
-									}
-									?>
-									<a href="<?php echo esc_url( $premium_url ); ?>" target="_blank" rel="noopener noreferrer" class="button-primary">
-										<?php esc_html_e( 'Get SiteOrigin Premium', 'siteorigin-panels' ); ?>
-									</a>
-									<?php
-								} elseif ( ! empty( $item['status'] ) || $item['type'] == 'themes' ) {
+								$text = '';
+								if ( ! empty( $item['status'] ) || $item['type'] == 'themes' ) {
 									if ( $item['status'] == 'install' ) {
+
+
+										if ( $slug == 'siteorigin-premium' ) {
+											$premium_url = 'https://siteorigin.com/downloads/premium/';
+											$affiliate_id = apply_filters( 'siteorigin_premium_affiliate_id', '' );
+											if ( $affiliate_id && is_numeric( $affiliate_id ) ) {
+												$premium_url = add_query_arg( 'ref', urlencode( $affiliate_id ), $premium_url );
+											}
+											?>
+											<a href="<?php echo esc_url( $premium_url ); ?>" target="_blank" rel="noopener noreferrer" class="button-primary">
+												<?php esc_html_e( 'Get SiteOrigin Premium', 'siteorigin-panels' ); ?>
+											</a>
+											<?php
+										} else {
+
 										$text = __( 'Install', 'siteorigin-panels' );
+										}
 									} else {
 										$text = __( 'Activate', 'siteorigin-panels' );
 									}
-									require 'action-btn.php';
+
+									if ( ! empty( $text ) ) {
+										require 'action-btn.php';
+									}
 								}
 
 								if ( ! empty( $item['update'] ) ) {
