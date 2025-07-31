@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 6.8
 Requires PHP: 7.0.0
-Stable tag: 2.33.0
-Build time: 2025-07-29T15:05:28+01:00
+Stable tag: 2.33.1
+Build time: 2025-07-31T15:45:08+01:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,11 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.33.1 – 31 July 2025 =
+* Layout Directory: Fixed pagination and search functionality.
+* Layouts: Fixed an issue with cloning layouts.
+* Layouts: Improved security by checking nonce earlier when fetching prebuilt layouts.
 
 = 2.33.0 – 29 July 2025 =
 * Layout Directory: Added category and niche filtering, search functionality, and pagination support.
