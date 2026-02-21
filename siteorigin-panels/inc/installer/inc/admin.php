@@ -155,6 +155,32 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 				die();
 			}
 
+			$task = sanitize_key( $_POST['task'] );
+			$type = sanitize_key( $_POST['type'] );
+
+			$capability = '';
+			if ( $type === 'plugins' ) {
+				if ( $task === 'install' ) {
+					$capability = 'install_plugins';
+				} elseif ( $task === 'update' ) {
+					$capability = 'update_plugins';
+				} elseif ( $task === 'activate' ) {
+					$capability = 'activate_plugins';
+				}
+			} elseif ( $type === 'themes' ) {
+				if ( $task === 'install' ) {
+					$capability = 'install_themes';
+				} elseif ( $task === 'update' ) {
+					$capability = 'update_themes';
+				} elseif ( $task === 'activate' ) {
+					$capability = 'switch_themes';
+				}
+			}
+
+			if ( empty( $capability ) || ! current_user_can( $capability ) ) {
+				die();
+			}
+
 			// SO Premium won't have a version.
 			if (
 				empty( $_POST['version'] ) &&
@@ -165,14 +191,14 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 
 			$slug = sanitize_file_name( $_POST['slug'] );
 
-			$product_url = 'https://wordpress.org/' . urlencode( $_POST['type'] ) . '/download/' . urlencode( $slug ) . '.' . urlencode( $_POST['version'] ) . '.zip';
+			$product_url = 'https://wordpress.org/' . urlencode( $type ) . '/download/' . urlencode( $slug ) . '.' . urlencode( $_POST['version'] ) . '.zip';
 			// check_ajax_referer( 'so_installer_manage' );
 			if ( ! class_exists( 'WP_Upgrader' ) ) {
 				require_once ABSPATH . 'wp-admin/includes/class-wp-upgrader.php';
 			}
 			$upgrader = new WP_Upgrader();
-			if ( $_POST['type'] == 'plugins' ) {
-				if ( $_POST['task'] == 'install' || $_POST['task'] == 'update' ) {
+			if ( $type === 'plugins' ) {
+				if ( $task === 'install' || $task === 'update' ) {
 					$upgrader->run( array(
 						'package' => esc_url( $product_url ),
 						'destination' => WP_PLUGIN_DIR,
@@ -186,14 +212,14 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 
 					$clear = true;
 				} elseif (
-					$_POST['task'] == 'activate' &&
+					$task === 'activate' &&
 					! is_wp_error( validate_plugin( $slug . '/' . $slug . '.php' ) )
 				) {
 					activate_plugin( $slug . '/' . $slug . '.php' );
 					$clear = true;
 				}
-			} elseif ( $_POST['type'] == 'themes' ) {
-				if ( $_POST['task'] == 'install' || $_POST['task'] == 'update' ) {
+			} elseif ( $type === 'themes' ) {
+				if ( $task === 'install' || $task === 'update' ) {
 					$upgrader->run( array(
 						'package' => esc_url( $product_url ),
 						'destination' => get_theme_root(),
@@ -202,7 +228,7 @@ if ( ! class_exists( 'SiteOrigin_Installer_Admin' ) ) {
 						'abort_if_destination_exists' => false,
 					) );
 					$clear = true;
-				} elseif ( $_POST['task'] == 'activate' ) {
+				} elseif ( $task === 'activate' ) {
 					switch_theme( $slug );
 					$clear = true;
 				}

@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 6.9
 Requires PHP: 7.0.0
-Stable tag: 2.33.5
-Build time: 2026-01-07T14:19:01+02:00
+Stable tag: 2.34.0
+Build time: 2026-02-21T19:25:54+00:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,14 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.34.0 – 21 February 2026 =
+* ACF: Improved widget compatibility for array return format.
+* AIOSEO, Layout Block: Prevented the AIOSEO SiteOrigin integration from loading in the Layout Block editor.
+* Events Manager: Fixed query context handling and duplication processing to prevent duplicate output and preserve Page Builder data.
+* Security: Hardened post loop template resolution to prevent local file inclusion risks.
+* WooCommerce: Prevented Shop page content from leaking into Terms and Conditions content rendering.
+* Added a setting to display empty columns with backgrounds in responsive layouts.
 
 = 2.33.5 – 07 January 2026 =
 * Added contextual menu action hooks for row and widget menus.
