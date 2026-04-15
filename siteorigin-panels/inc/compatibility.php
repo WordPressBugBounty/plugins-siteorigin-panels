@@ -39,6 +39,12 @@ class SiteOrigin_Panels_Compatibility {
 	}
 
 	public function init() {
+		// Generic compatibility handling for admin asset conflicts.
+		if ( is_admin() ) {
+			require_once $this->compat_path . 'admin-asset-conflicts.php';
+			SiteOrigin_Panels_Compat_Admin_Asset_Conflicts::single();
+		}
+
 		// Compatibility with Widget Options.
 		if ( class_exists( 'WP_Widget_Options' ) ) {
 			require_once $this->compat_path . 'widget-options.php';
@@ -125,6 +131,16 @@ class SiteOrigin_Panels_Compatibility {
 		// Compatibility with Events Manager.
 		if ( defined( 'EM_VERSION' ) ) {
 			require_once $this->compat_path . 'events-manager.php';
+		}
+
+		// Compatibility with WooCommerce.
+		if ( class_exists( 'WooCommerce' ) ) {
+			SiteOrigin_Panels_Compat_WooCommerce::single();
+		}
+
+		// Compatibility with Ditty.
+		if ( defined( 'DITTY_VERSION' ) ) {
+			require_once $this->compat_path . 'ditty.php';
 		}
 	}
 

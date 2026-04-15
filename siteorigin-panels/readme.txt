@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 6.9
 Requires PHP: 7.0.0
-Stable tag: 2.34.0
-Build time: 2026-02-21T19:25:54+00:00
+Stable tag: 2.34.1
+Build time: 2026-04-15T19:48:19+01:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,22 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.34.1 – 15 April 2026 =
+* Copy Content: Fixed slug corruption during save caused by slug uniqueness filters.
+* Ditty: Added compatibility to prevent UI conflicts on Page Builder admin screens.
+* Events Manager: Fixed publish status regression in the compatibility layer.
+* Layout Block: Added iframe support for the WordPress 7 block editor.
+* Layout Block: Fixed context menu rendering inside the block editor iframe.
+* Layout Block: Fixed inline save persistence.
+* Layout Block: Fixed toolbar focus rendering and selection ring overlap.
+* Layout Block: Fixed dialog and block styling for WordPress 7.
+* WooCommerce: Improved Shop page context guard to prevent content handling regressions.
+* Fixed admin control sizing for WordPress 7.
+* Fixed iOS scrolling issue with full-width rows by using `overflow-x: clip`.
+* Fixed last row bottom spacing.
+* Fixed row preview percentage alignment.
+* Improved admin asset conflict handling for compatibility modules.
 
 = 2.34.0 – 21 February 2026 =
 * ACF: Improved widget compatibility for array return format.

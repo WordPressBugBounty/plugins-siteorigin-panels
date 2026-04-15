@@ -1,6 +1,38 @@
 #panels-settings-page {
   margin: 0 0 0 -20px;
 }
+#panels-settings-page input[type="text"],
+#panels-settings-page input[type="password"],
+#panels-settings-page input[type="number"],
+#panels-settings-page input[type="search"],
+#panels-settings-page textarea {
+  box-shadow: 0 0 0 transparent;
+  border-radius: 4px;
+  border: 1px solid #8c8f94;
+  background-color: #fff;
+  color: #2c3338;
+  padding: 0 8px;
+  line-height: 2;
+  min-height: 30px;
+}
+#panels-settings-page select {
+  box-shadow: 0 0 0 transparent;
+  border-radius: 3px;
+  border: 1px solid #8c8f94;
+  background-color: #fff;
+  color: #2c3338;
+  padding: 0 24px 0 8px;
+  line-height: 2;
+  min-height: 30px;
+}
+#panels-settings-page .button,
+#panels-settings-page .button-primary {
+  border-radius: 3px;
+  font-size: 13px;
+  line-height: 2.15384615;
+  padding: 0 10px;
+  min-height: 30px;
+}
 #panels-settings-page .settings-banner {
   display: block;
   padding: 15px 30px 5px 30px;

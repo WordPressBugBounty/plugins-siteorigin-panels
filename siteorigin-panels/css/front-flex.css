@@ -78,7 +78,7 @@
   margin-top: 0;
 }
 body.siteorigin-panels-before-js:not(.siteorigin-panels-css-container) {
-  overflow-x: hidden;
+  overflow-x: clip;
 }
 body.siteorigin-panels-before-js:not(.siteorigin-panels-css-container) .siteorigin-panels-stretch {
   margin-right: -1000px !important;

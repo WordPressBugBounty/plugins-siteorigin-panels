@@ -3,7 +3,7 @@
 Plugin Name: Page Builder by SiteOrigin
 Plugin URI: https://siteorigin.com/page-builder/
 Description: A drag and drop, responsive page builder that simplifies building your website.
-Version: 2.34.0
+Version: 2.34.1
 Author: SiteOrigin
 Author URI: https://siteorigin.com
 License: GPL3
@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
 */
 
-define( 'SITEORIGIN_PANELS_VERSION', '2.34.0' );
+define( 'SITEORIGIN_PANELS_VERSION', '2.34.1' );
 
 if ( ! defined( 'SITEORIGIN_PANELS_JS_SUFFIX' ) ) {
 	define( 'SITEORIGIN_PANELS_JS_SUFFIX', '.min' );
@@ -75,7 +75,6 @@ class SiteOrigin_Panels {
 
 		// We need to generate fresh post content.
 		add_filter( 'the_content', array( $this, 'generate_post_content' ) );
-		add_filter( 'woocommerce_format_content', array( $this, 'generate_woocommerce_content' ) );
 		add_filter( 'wp_enqueue_scripts', array( $this, 'generate_post_css' ) );
 
 		// Remove the default excerpt function.
@@ -300,21 +299,6 @@ class SiteOrigin_Panels {
 	}
 
 	/**
-	 * Generate post content for WooCommerce shop page if it's using a PB layout.
-	 *
-	 * @return string
-	 *
-	 * @filter woocommerce_format_content
-	 */
-	public function generate_woocommerce_content( $content ) {
-		if ( self::should_use_woocommerce_shop_page_id() ) {
-			return $this->generate_post_content( $content );
-		}
-
-		return $content;
-	}
-
-	/**
 	 * Generate post content for the current post.
 	 *
 	 * @return string
@@ -498,7 +482,7 @@ class SiteOrigin_Panels {
 	public function get_post_id() {
 		$post_id = get_the_ID();
 
-		if ( self::should_use_woocommerce_shop_page_id() ) {
+		if ( SiteOrigin_Panels_Compat_WooCommerce::should_use_shop_page_id() ) {
 			$post_id = wc_get_page_id( 'shop' );
 		}
 		global $preview;
@@ -512,25 +496,6 @@ class SiteOrigin_Panels {
 		}
 
 		return $post_id;
-	}
-
-	/**
-	 * Should we use the configured WooCommerce Shop page ID as the current post ID.
-	 *
-	 * This is intentionally strict because some WooCommerce rendering contexts can invoke content
-	 * filters while processing non-Shop content.
-	 */
-	public static function should_use_woocommerce_shop_page_id() {
-		if ( ! class_exists( 'WooCommerce' ) || ! is_shop() ) {
-			return false;
-		}
-
-		$shop_page_id = wc_get_page_id( 'shop' );
-		if ( empty( $shop_page_id ) ) {
-			return false;
-		}
-
-		return (int) get_queried_object_id() === (int) $shop_page_id;
 	}
 
 	/**
