@@ -6168,7 +6168,7 @@ module.exports = Backbone.View.extend( {
 				// Set the containment to the cell parent
 				previousCell = cellView.$el.prev().data( 'view' );
 				if ( _.isUndefined( previousCell ) ) {
-					return;
+					return false;
 				}
 
 				// Create the clone for the current cell
@@ -6197,6 +6197,10 @@ module.exports = Backbone.View.extend( {
 				} );
 			},
 			drag: function ( e, ui ) {
+				var nClone = $( this ).data( 'newCellClone' );
+				var pClone = $( this ).data( 'prevCellClone' );
+				if ( ! previousCell || ! nClone || ! pClone ) { return; }
+
 				// Calculate the new cell and previous cell widths as a percent
 				var containerWidth = cellView.row.$el.width() + 10;
 				var ncw = cellView.model.get( 'weight' ) - (
@@ -6210,16 +6214,21 @@ module.exports = Backbone.View.extend( {
 					) / containerWidth
 					);
 
-				$( this ).data( 'newCellClone' ).css( 'width', containerWidth * ncw + 'px'  )
+				nClone.css( 'width', containerWidth * ncw + 'px'  )
 					.find( '.preview-cell-weight-input' ).val( Math.round( ncw * 1000 ) / 10 );
 
-				$( this ).data( 'prevCellClone' ).css( 'width', containerWidth * pcw + 'px' )
+				pClone.css( 'width', containerWidth * pcw + 'px' )
 					.find( '.preview-cell-weight-input' ).val( Math.round( pcw * 1000 ) / 10 );
 			},
 			stop: function ( e, ui ) {
+				var nClone = $( this ).data( 'newCellClone' );
+				var pClone = $( this ).data( 'prevCellClone' );
+				if ( ! previousCell || ! nClone || ! pClone ) { return; }
+
 				// Remove the clones
-				$( this ).data( 'newCellClone' ).remove();
-				$( this ).data( 'prevCellClone' ).remove();
+				nClone.remove();
+				pClone.remove();
+				$( this ).removeData( [ 'newCellClone', 'prevCellClone' ] );
 
 				var containerWidth = cellView.row.$el.width() + 10;
 				var ncw = cellView.model.get( 'weight' ) - (
@@ -7755,10 +7764,12 @@ module.exports = Backbone.View.extend( {
 		var height = 0,
 			cellWidth = 0,
 			iconsShown = false,
+			measured = false,
 			cell;
 
 		this.$( '.so-cells .cell' ).each( function () {
 			cell = $( this );
+			if ( ! cell.data( 'view' ) ) { return; } // skip orphan/clone cells
 
 			$( this ).css(
 				'width',
@@ -7766,6 +7777,9 @@ module.exports = Backbone.View.extend( {
 			);
 
 			cellWidth = cell.width();
+			if ( cellWidth > 0 ) {
+				measured = true;
+			}
 			// Ensure this widget is large enough to allow for actions to appear.
 			if ( cellWidth < 215 ) {
 				cell.addClass( 'so-show-icon' );
@@ -7787,7 +7801,8 @@ module.exports = Backbone.View.extend( {
 		} );
 
 		// Resize all the grids and cell wrappers
-		this.$( '.so-cells .cell-wrapper' ).css( 'min-height', Math.max( height, 63 ) + 'px' );
+		var finalMinHeight = measured ? Math.max( height, 63 ) : 63;
+		this.$( '.so-cells .cell-wrapper' ).css( 'min-height', finalMinHeight + 'px' );
 		// If action icons are visible in any cell, give the container a special class.
 		if ( iconsShown ) {
 			this.$( '.so-cells' ).addClass( 'so-action-icons' );

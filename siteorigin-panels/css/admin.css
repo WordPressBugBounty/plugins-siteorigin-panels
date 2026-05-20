@@ -833,44 +833,21 @@
   padding: 2px;
 }
 .so-panels-dialog,
-.block-editor-page,
-.wp-customizer {
-  -webkit-text-size-adjust: none;
+.so-panels-dialog label,
+.so-panels-dialog input,
+.so-panels-dialog select,
+.so-panels-dialog button,
+.so-panels-dialog .button,
+.so-panels-dialog h3,
+.so-panels-dialog h4,
+.so-panels-dialog p,
+.so-panels-dialog a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .so-panels-dialog,
 .block-editor-page,
-.wp-customizer,
-.so-panels-dialog label,
-.block-editor-page label,
-.wp-customizer label,
-.so-panels-dialog input,
-.block-editor-page input,
-.wp-customizer input,
-.so-panels-dialog select,
-.block-editor-page select,
-.wp-customizer select,
-.so-panels-dialog textarea,
-.block-editor-page textarea,
-.wp-customizer textarea,
-.so-panels-dialog button,
-.block-editor-page button,
-.wp-customizer button,
-.so-panels-dialog .button,
-.block-editor-page .button,
-.wp-customizer .button,
-.so-panels-dialog h3,
-.block-editor-page h3,
-.wp-customizer h3,
-.so-panels-dialog h4,
-.block-editor-page h4,
-.wp-customizer h4,
-.so-panels-dialog p,
-.block-editor-page p,
-.wp-customizer p,
-.so-panels-dialog a,
-.block-editor-page a,
-.wp-customizer a {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+.wp-customizer {
+  -webkit-text-size-adjust: none;
 }
 .so-panels-dialog .so-overlay,
 .block-editor-page .so-overlay,
