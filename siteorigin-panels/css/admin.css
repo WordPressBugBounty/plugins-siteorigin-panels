@@ -3031,6 +3031,60 @@
 .wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field-slider .so-wp-input-slider {
   display: none;
 }
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="date"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="date"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="date"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="datetime-local"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="datetime-local"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="datetime-local"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="datetime"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="datetime"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="datetime"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="email"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="email"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="email"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="month"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="month"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="month"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="number"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="number"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="number"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="password"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="password"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="password"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="search"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="search"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="search"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="tel"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="tel"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="tel"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="text"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="text"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="text"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="time"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="time"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="time"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="url"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="url"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="url"],
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="week"],
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="week"],
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper input[type="week"] {
+  min-height: 30px;
+  padding: 0 8px;
+}
+.so-panels-dialog .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper select,
+.block-editor-page .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper select,
+.wp-customizer .so-visual-styles .style-section-fields .style-field-wrapper .style-field .style-input-wrapper select {
+  border-color: #8c8f94;
+  border-radius: 3px;
+  color: #2c3338;
+  font-size: 14px;
+  line-height: 2;
+  max-width: 25rem;
+  min-height: 30px;
+  padding: 0 24px 0 8px;
+}
 .so-panels-dialog .so-visual-styles .style-input-wrapper,
 .block-editor-page .so-visual-styles .style-input-wrapper,
 .wp-customizer .so-visual-styles .style-input-wrapper {
