@@ -3,8 +3,8 @@ Tags: page builder, website builder, responsive design, drag and drop, visual ed
 Requires at least: 4.7
 Tested up to: 7.0
 Requires PHP: 7.0.0
-Stable tag: 2.34.3
-Build time: 2026-05-22T18:07:34+01:00
+Stable tag: 2.34.4
+Build time: 2026-06-25T11:49:53+02:00
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Donate link: https://siteorigin.com/downloads/premium/
@@ -120,6 +120,12 @@ Page Builder is compatible with the vast majority of third-party plugins and wid
 SiteOrigin offers a single premium plugin that enhances and extends Page Builder, the Widgets Bundle, SiteOrigin CSS and all of our free themes. Find out more about [SiteOrigin Premium](https://siteorigin.com/downloads/premium/) and the powerful addons it offers.
 
 == Changelog ==
+
+= 2.34.4 – 25 June 2026 =
+* Lazy Load: Skipped lazy-load tagging on the style wrapper when an overlay is present to prevent duplicate images.
+* Visual Styles: Matched color picker controls to 28px for consistent sizing.
+* Restored post globals after admin and preview renders to prevent loop variables leaking into the page.
+* Always sanitize widget data on save to harden against stored cross-site scripting.
 
 = 2.34.3 – 22 May 2026 =
 * Style Fields: Restored input and select sizing in Page Builder style settings.
