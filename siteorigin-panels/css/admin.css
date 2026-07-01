@@ -3114,7 +3114,7 @@
 .so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container input,
 .block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container input,
 .wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container input {
-  height: 30px;
+  height: 28px;
 }
 .so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap,
 .block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-open + .wp-picker-input-wrap,
@@ -3135,18 +3135,27 @@
 .block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-clear,
 .wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-picker-clear {
   margin-left: 6px;
-  min-height: 30px;
+  min-height: 28px;
 }
 .so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result,
 .block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result,
-.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result {
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result,
+.so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result.button,
+.block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result.button,
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result.button {
   margin: 0;
+  min-height: 28px;
+  font-size: 12px;
 }
 .so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result .wp-color-result-text,
 .block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result .wp-color-result-text,
-.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result .wp-color-result-text {
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result .wp-color-result-text,
+.so-panels-dialog .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result.button .wp-color-result-text,
+.block-editor-page .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result.button .wp-color-result-text,
+.wp-customizer .so-visual-styles .style-input-wrapper .wp-picker-container .wp-color-result.button .wp-color-result-text {
   border-left: 1px solid #8c8f94;
   height: 28px;
+  line-height: 28px;
 }
 .so-panels-dialog .so-visual-styles .style-input-wrapper .select2-container,
 .block-editor-page .so-visual-styles .style-input-wrapper .select2-container,

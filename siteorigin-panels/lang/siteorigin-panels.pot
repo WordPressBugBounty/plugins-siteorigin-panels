@@ -1951,27 +1951,27 @@ msgstr ""
 msgid "Video"
 msgstr ""
 
-#: widgets/widgets.php:1105
+#: widgets/widgets.php:1107
 msgid "Self Hosted Video (PB)"
 msgstr ""
 
-#: widgets/widgets.php:1107
+#: widgets/widgets.php:1109
 msgid "A self hosted video player."
 msgstr ""
 
-#: widgets/widgets.php:1163
+#: widgets/widgets.php:1165
 msgid "Video URL"
 msgstr ""
 
-#: widgets/widgets.php:1167
+#: widgets/widgets.php:1169
 msgid "Poster URL"
 msgstr ""
 
-#: widgets/widgets.php:1169
+#: widgets/widgets.php:1171
 msgid "An image that displays before the video starts playing."
 msgstr ""
 
-#: widgets/widgets.php:1174
+#: widgets/widgets.php:1176
 msgid "Auto Play Video"
 msgstr ""
 
